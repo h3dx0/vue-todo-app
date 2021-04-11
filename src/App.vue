@@ -136,7 +136,7 @@ export default {
           class="task-list-text"
           :class="taskItem.complete ? 'is-complete' : ''"
         >
-          {{ taskItem.id }} - {{ taskItem.label }}
+          {{ taskItem.label }}
         </p>
         <div class="task-list-cta">
           <p>
